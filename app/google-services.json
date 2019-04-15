@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "627570250060",
+    "firebase_url": "https://busloc-b42e5.firebaseio.com",
+    "project_id": "busloc-b42e5",
+    "storage_bucket": "busloc-b42e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627570250060:android:bc96b329b83b46ae",
+        "android_client_info": {
+          "package_name": "howlingcodes.busloc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "627570250060-s5tadrhtighhcqjufn3m1gonnf19p2c3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "howlingcodes.busloc",
+            "certificate_hash": "f4bcf417c7b3756f4f82c1de31aad506356d5cd9"
+          }
+        },
+        {
+          "client_id": "627570250060-bafo857va63krdf3mfbhr3qn3034ltvn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjEPQNLayTMSqSaETyBDfjG2oDrtwKgWI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "627570250060-bafo857va63krdf3mfbhr3qn3034ltvn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

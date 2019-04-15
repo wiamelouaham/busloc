@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context=".RegTypeActivity">
+
+    <EditText
+        android:id="@+id/fname"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/common_google_signin_btn_text_light_default"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/first_name"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/lname"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/common_google_signin_btn_text_light_default"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/last_name"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fname" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/type"
+        android:layout_width="226dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal"
+        android:checkedButton="@id/parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lname">
+
+        <RadioButton
+            android:id="@+id/parent"
+            android:layout_width="78dp"
+            android:layout_height="48dp"
+            android:text="@string/parent"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="309dp" />
+
+
+        <RadioButton
+            android:id="@+id/bus"
+            android:layout_width="71dp"
+            android:layout_height="45dp"
+            android:text="@string/bus"
+            tools:layout_editor_absoluteX="177dp"
+            tools:layout_editor_absoluteY="312dp" />
+
+        <RadioButton
+            android:id="@+id/admin"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:text="@string/admin"
+            tools:layout_editor_absoluteX="248dp"
+            tools:layout_editor_absoluteY="312dp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/updateprofile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Continue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/type" />
+
+</android.support.constraint.ConstraintLayout>
