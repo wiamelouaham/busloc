@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="howlingcodes.busloc">
+
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,10 +12,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ChargementActivity">
-
-
-        </activity>
+        <activity
+            android:name=".AdminActivity"
+            android:label="@string/title_activity_admin"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".profileAdmin" />
+        <activity android:name=".ChargementActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".BaseActivity" />
         <activity android:name=".MainActivity">
@@ -27,7 +31,6 @@
         <activity android:name=".RegTypeActivity" />
         <activity android:name=".RegParentActivity" />
         <activity android:name=".ParentActivity" />
-        <activity android:name=".AdminActivity" />
         <activity android:name=".BusActivity" />
     </application>
 
